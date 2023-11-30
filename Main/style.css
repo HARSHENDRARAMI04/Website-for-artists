@@ -1,0 +1,931 @@
+body{
+    margin: 0;
+    font-family: 'Arima Madurai', cursive;
+    position: relative;
+}
+
+.firstscreen{
+    background: url(https://st4.depositphotos.com/3271841/25487/i/450/depositphotos_254878940-stock-photo-black-wall-texture-background-dark.jpg);
+    background-position: 10px;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    position: relative;
+}
+
+.navbar{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    
+}
+
+.logo{
+    height: 400px;
+    position: absolute;
+    right: 300px;
+    top: -165px;
+    left: -50px;
+
+}
+
+nav{
+    background-color: #141414 ;
+    height: 75px;
+    margin: 0;
+
+}
+
+nav ul{
+    margin: 0;
+    list-style: none;
+}
+nav ul li{
+    float: right;
+    margin-right: 80px;
+    margin-top: 23px;
+    
+    font-size: 20px;
+    font-family: 'Secular One', sans-serif;
+    text-transform: uppercase;
+    
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    
+
+}
+a:hover{
+    color: blueviolet;
+}
+
+.bgimg{
+    background: black;
+    opacity: 0.3;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 638px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 75px;
+    z-index: 0;
+    
+}
+
+.firstcontainer{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 75px;
+    z-index: 0;
+}
+
+
+
+.welcome{
+    margin-top: 20vh;
+    
+    height: 40%;
+    padding-top: 0;
+    color: rgb(239, 239, 239);
+    align-items: center;
+    font-size: 69px;
+    font-family: 'Arima Madurai', cursive;
+    display: flex;
+    float: center;
+    z-index: 1;
+}
+
+.secondelement{
+    background-color: black;
+    width: 100%;
+    height: 188px;
+    position: absolute;
+    display: flex;
+    top: 550px;
+   
+}
+
+.submissionimg{
+    height: 80px;
+    margin-top: 50px;
+    margin-left: 55px;
+}
+
+.submission{
+    margin-top: 68px;
+    margin-left: 150px;
+    height: 20%;
+    padding-top: 0px;
+    color: white;
+    font-size: 35px;
+    font-weight: 100;
+    position: absolute;
+}
+
+.learnmore{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(22, 22, 163);
+    border-radius: 30px;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    margin-top: 75px;
+    margin-left: 1150px;
+}
+
+.learnmore:hover{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(132, 132, 229);
+    border-radius: 30px;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    margin-top: 75px;
+    margin-left: 1150px;
+    transition: 0.5s;
+}
+
+
+.lmtext{
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+    font-weight: 800;
+
+    text-decoration: none;
+
+}
+
+.lmtext:hover{
+    color: rgb(37, 36, 36);
+    font-size: 20px;
+    margin-top: 5px;
+    font-weight: 800;
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+
+.welcometext{
+    margin-top: 0px;
+    
+    height: 70%;
+    padding-top: 0;
+    color: white;
+    
+    align-items: center;
+    font-size: 25px;
+    display: flex;
+    float: center;
+    z-index: 1;
+    position: absolute;
+    
+}
+
+.thirdelement{
+    background-image: url(./astronaut.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1550px, 2000px;
+    height: 400px;
+    position: relative;
+    top: 188px
+
+
+}
+
+.slide{
+    
+    height: 400px;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+}
+
+.overlay{
+    background: linear-gradient(#000000, #0000004f);
+    opacity: 0.6;
+    height: 400px;
+    width: 100%;
+    position: absolute;
+
+}
+
+.thtext{
+    display: flex;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 65px;
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.thpara{
+    display: flex;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 65px;
+    color: aliceblue;
+    font-size: 20px;
+    font: caption;
+}
+
+.learnmore2{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(22, 22, 163);
+    border-radius: 30px;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 60px;
+}
+
+.learnmore2:hover{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(132, 132, 229);
+    border-radius: 30px;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 60px;
+    transition: 0.5s;
+}
+
+
+.lmtext2{
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+    font-weight: 800;
+    text-decoration: none;
+
+}
+
+.lmtext2:hover{
+    color: rgb(37, 36, 36);
+    font-size: 20px;
+    margin-top: 5px;
+    font-weight: 800;
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+.firstbox{
+    background-image: url(./man\ in\ bike\ logo.png);
+    background-size: cover;
+    height: 350px;
+    width: 20%;
+    margin: 25px;
+    margin-left: 450px;
+    position: absolute;
+    box-shadow: 0 2px  10px rgb(116, 116, 116);
+}
+
+
+.secondbox{
+    background-image: url(./front.png);
+    background-size: cover;
+    height: 350px;
+    width: 20%;
+    margin: 25px;
+    margin-left: 800px;
+    position: absolute;
+    box-shadow: 0 2px  10px rgb(116, 116, 116);
+}
+
+.thirdbox{
+    background-image: url(./ufo\ burried\ 1.png);
+    background-size: cover;
+    height: 350px;
+    width: 20%;
+    margin: 25px;
+    margin-left: 1150px;
+    position: absolute;
+    box-shadow: 0 2px  10px rgb(116, 116, 116);
+    
+}
+
+
+.rightarrow{
+ 
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 96%;
+    z-index: 1;
+    
+
+}
+
+.right{
+    
+    height: 80px;
+    width: 69px;
+    position: absolute;
+    margin-left: 1450px;
+    margin-top: 155px;
+    justify-content: center;
+
+}
+
+
+.bg{
+    background-color: aliceblue;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 50%;
+
+}
+
+.rightimg{
+    background-image: url(./right.png);
+    
+    background-position: center;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.lm{
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 0px;
+    padding-top: 65px;
+    padding-right: 5px;
+    text-decoration: none;
+    color: aliceblue;
+    position: absolute;
+    font-weight: lighter;
+
+}
+
+.lm:hover{
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 0px;
+    padding-top: 65px;
+    padding-right: 5px;
+    text-decoration: none;
+    color: rgb(0, 217, 255);
+    position: absolute;
+    font-weight: lighter;
+
+}
+
+.fourthelement{
+    background-color: #000000;
+    height: 330px;
+    margin-top: 188px;
+    
+}
+
+.fatext{
+    position: absolute;
+    margin-top: 0;
+    margin-left: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.artist1{
+    height:127.9px;
+    width: 464.400px;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-color: rgb(38, 38, 38);
+    border: solid 1px;
+    border-color: white;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.dp1{
+    height: 127.9px;
+    width: 125px;
+    position: absolute;
+    background-image: url(./dp.jpg);
+    background-size: cover;
+    background-position: 10px;
+    border-radius: 4% 0% 0% 4%;
+}
+
+.artisttype1{
+    font-size: 30px;
+    position: absolute;
+    color: #7a7a7a;
+    font: status-bar;
+    margin-left: 150px;
+}
+
+.name1{
+    font-size: 25px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.location1{
+    height: 20px;
+    width: 20px;
+    background-image: url(./location.png);
+    position: absolute;
+    background-size: cover;
+    margin-left: 147px;
+    margin-top: 75px;
+}
+
+.ltext1{
+    font-size: 10px;
+    margin-left: 170px;
+    margin-top: 80px;
+    color: #7a7a7a;
+    position: absolute;
+}
+
+.arttype1{
+    font-size: 10px;
+    margin-left: 150px;
+    margin-top: 100px;
+    color: #7a7a7a;
+    position: absolute;
+
+}
+
+.artist2{
+    height:127.9px;
+    width: 464.400px;
+    margin-top: 190px;
+    margin-left: 20px;
+    background-color: rgb(38, 38, 38);
+    border: solid 1px;
+    border-color: white;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.dp2{
+    height: 127.9px;
+    width: 125px;
+    position: absolute;
+    background-image: url(./chhavi.jpg);
+    background-size: cover;
+    border-radius: 4% 0% 0% 4%;
+}
+
+.artisttype2{
+    font-size: 30px;
+    position: absolute;
+    color: #7a7a7a;
+    font: status-bar;
+    margin-left: 150px;
+}
+
+.name2{
+    font-size: 25px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.location2{
+    height: 20px;
+    width: 20px;
+    background-image: url(./location.png);
+    position: absolute;
+    background-size: cover;
+    margin-left: 147px;
+    margin-top: 75px;
+}
+
+.ltext2{
+    font-size: 10px;
+    margin-left: 170px;
+    margin-top: 80px;
+    color: #7a7a7a;
+    position: absolute;
+}
+
+.arttype2{
+    font-size: 10px;
+    margin-left: 150px;
+    margin-top: 100px;
+    color: #7a7a7a;
+    position: absolute;
+
+}
+
+.artist3{
+    height:127.9px;
+    width: 464.400px;
+    margin-top: 50px;
+    margin-left: 525px;
+    background-color: rgb(38, 38, 38);
+    border: solid 1px;
+    border-color: white;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.dp3{
+    height: 127.9px;
+    width: 125px;
+    position: absolute;
+    background-image: url(./sahildp.png);
+    background-size: cover;
+    border-radius: 4% 0% 0% 4%;
+}
+
+
+.artisttype3{
+    font-size: 30px;
+    position: absolute;
+    color: #7a7a7a;
+    font: status-bar;
+    margin-left: 150px;
+}
+
+.name3{
+    font-size: 25px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.location3{
+    height: 20px;
+    width: 20px;
+    background-image: url(./location.png);
+    position: absolute;
+    background-size: cover;
+    margin-left: 147px;
+    margin-top: 75px;
+}
+
+.ltext3{
+    font-size: 10px;
+    margin-left: 170px;
+    margin-top: 80px;
+    color: #7a7a7a;
+    position: absolute;
+}
+
+.arttype3{
+    font-size: 10px;
+    margin-left: 150px;
+    margin-top: 100px;
+    color: #7a7a7a;
+    position: absolute;
+
+}
+
+
+.artist4{
+    height:127.9px;
+    width: 464.400px;
+    margin-top: 190px;
+    margin-left: 525px;
+    background-color: rgb(38, 38, 38);
+    border: solid 1px;
+    border-color: white;
+    border-radius: 5px;    position: absolute;
+}
+
+.dp4{
+    height: 127.9px;
+    width: 125px;
+    position: absolute;
+    background-image: url(./omkardp.png);
+    background-size: cover;
+    border-radius: 4% 0% 0% 4%;
+}
+
+
+.artisttype4{
+    font-size: 30px;
+    position: absolute;
+    color: #7a7a7a;
+    font: status-bar;
+    margin-left: 150px;
+}
+
+.name4{
+    font-size: 25px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.location4{
+    height: 20px;
+    width: 20px;
+    background-image: url(./location.png);
+    position: absolute;
+    background-size: cover;
+    margin-left: 147px;
+    margin-top: 75px;
+}
+
+.ltext4{
+    font-size: 10px;
+    margin-left: 170px;
+    margin-top: 80px;
+    color: #7a7a7a;
+    position: absolute;
+}
+
+.arttype4{
+    font-size: 10px;
+    margin-left: 150px;
+    margin-top: 100px;
+    color: #7a7a7a;
+    position: absolute;
+
+}
+
+
+.artist5{
+    height:127.9px;
+    width: 464.400px;
+    margin-top: 50px;
+    margin-left: 1030px;
+    background-color: rgb(38, 38, 38);
+    border: solid 1px;
+    border-color: white;
+    border-radius: 5px;    position: absolute;
+}
+
+.dp5{
+    height: 127.9px;
+    width: 125px;
+    position: absolute;
+    background-image: url(./vaibhav.png);
+    background-size: cover;
+    border-radius: 4% 0% 0% 4%;
+}
+
+
+.artisttype5{
+    font-size: 30px;
+    position: absolute;
+    color: #7a7a7a;
+    font: status-bar;
+    margin-left: 150px;
+}
+
+.name5{
+    font-size: 25px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.location5{
+    height: 20px;
+    width: 20px;
+    background-image: url(./location.png);
+    position: absolute;
+    background-size: cover;
+    margin-left: 147px;
+    margin-top: 75px;
+}
+
+.ltext5{
+    font-size: 10px;
+    margin-left: 170px;
+    margin-top: 80px;
+    color: #7a7a7a;
+    position: absolute;
+}
+
+.arttype5{
+    font-size: 10px;
+    margin-left: 150px;
+    margin-top: 100px;
+    color: #7a7a7a;
+    position: absolute;
+
+}
+
+.artist6{
+    height:127.9px;
+    width: 464.400px;
+    margin-top: 190px;
+    margin-left: 1030px;
+    background-color: rgb(38, 38, 38);
+    border: solid 1px;
+    border-color: white;
+    border-radius: 5px;    position: absolute;
+}
+.dp6{
+    height: 127.9px;
+    width: 125px;
+    position: absolute;
+    background-color: #d40000;
+    border-radius: 4% 0% 0% 4%;
+}
+
+
+.artisttype6{
+    font-size: 30px;
+    position: absolute;
+    color: #7a7a7a;
+    font: status-bar;
+    margin-left: 150px;
+}
+
+.name6{
+    font-size: 25px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.location6{
+    height: 20px;
+    width: 20px;
+    background-image: url(./location.png);
+    position: absolute;
+    background-size: cover;
+    margin-left: 147px;
+    margin-top: 75px;
+}
+
+.ltext6{
+    font-size: 10px;
+    margin-left: 170px;
+    margin-top: 80px;
+    color: #7a7a7a;
+    position: absolute;
+}
+
+.arttype6{
+    font-size: 10px;
+    margin-left: 150px;
+    margin-top: 100px;
+    color: #7a7a7a;
+    position: absolute;
+
+}
+
+
+
+.last{
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    display: flex;
+    top: 1465px;
+    position: absolute;
+
+}
+
+
+.copyright{
+    color: aliceblue;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 150;
+    
+    margin-top: 32.5px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+.follow{
+    color: aliceblue;
+    font-size: 15px;
+    margin-top: 32.5px;
+    margin-left: 75%;
+    position: absolute;
+
+    
+}
+
+.insta{
+    background: url(./dark.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 81%;
+}
+
+.insta:hover{
+    background: url(./light.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 81%;
+    transition: 0.5s;
+}
+
+
+.twitter{
+    background: url(./tdark.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 84%;
+}
+
+.twitter:hover{
+    background: url(./tlight.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 84%;
+    transition: 0.5s;
+}
+
+.facebook{
+    background: url(./fdark.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 87%;
+}
+
+.facebook:hover{
+    background: url(./flight.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 87%;
+    transition: 0.5s;
+}
+
+
+.linkedin{
+    background: url(./ldark.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 90%;
+}
+
+.linkedin:hover{
+    background: url(./llight.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 90%;
+    transition: 0.5s;
+}
+

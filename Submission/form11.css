@@ -1,0 +1,257 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+    background-color: #222222;
+    color: white;
+    font-family: 'Arima Madurai', cursive;
+
+}
+
+
+.navbar{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    
+}
+
+.logo{
+    height: 400px;
+    position: absolute;
+    right: 300px;
+    top: -165px;
+    left: -50px;
+
+}
+
+nav{
+    background-color: #141414 ;
+    height: 75px;
+    margin: 0;
+
+}
+
+nav ul{
+    margin: 0;
+    list-style: none;
+}
+nav ul li{
+    float: right;
+    margin-right: 80px;
+    margin-top: 23px;
+    
+    font-size: 20px;
+    font-family: 'Secular One', sans-serif;
+    text-transform: uppercase;
+    
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    
+
+}
+a:hover{
+    color: blueviolet;
+}
+
+
+#wrapper{
+	width: 100%;
+	height: 120vh;
+	
+	
+	top: 0;
+	left: 0;
+	background: black;
+	display: flex;
+	
+	justify-content: center;
+	align-items: center;
+}
+.form{
+	width: 60%;
+	height: 75vh;
+	min-height: 450px;
+	border-radius: 10px;
+	box-shadow:  3px 3px 56px #454545;
+             /*-13px -13px 26px #306b68;*/
+}
+.form h2{
+	padding: 20px;
+	text-align: center;
+	color: white;
+}
+.aaa{
+	border: none;
+	border-radius: 5px;
+	margin-left: 5%;
+	width: 80%;
+	padding: 5px 5%;
+	margin-top: 25px;
+	height: 40px;
+	color: white;
+	background: #585858;
+}
+
+
+
+
+
+.form button{
+	margin: 5%;
+	border: none;
+	background: transparent;
+	padding: 10px 20px;
+	box-shadow:  1px 1px 6px #8b8b8b;
+	border-radius: 5px;
+	color: white;
+}
+.imgaccept{
+	border: none;
+	border-radius: 5px;
+	margin-left: 5%;
+	width: 80%;
+	padding: 5px 5%;
+	margin-top: 30px;
+	height: 40px;
+	color: white;
+	background: transparent;
+}
+
+
+
+
+
+.last{
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    display: flex;
+    top: 800px;
+    left: 0px;
+    position: absolute;
+
+}
+
+
+.copyright{
+    color: aliceblue;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 150;
+    
+    margin-top: 32.5px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+.follow{
+    color: aliceblue;
+    font-size: 15px;
+    margin-top: 32.5px;
+    margin-left: 75%;
+    position: absolute;
+
+    
+}
+
+.insta{
+    background: url(./dark.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 81%;
+}
+
+.insta:hover{
+    background: url(./light.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 81%;
+    transition: 0.5s;
+}
+
+
+.twitter{
+    background: url(./tdark.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 84%;
+}
+
+.twitter:hover{
+    background: url(./tlight.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 84%;
+    transition: 0.5s;
+}
+
+.facebook{
+    background: url(./fdark.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 87%;
+}
+
+.facebook:hover{
+    background: url(./flight.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 87%;
+    transition: 0.5s;
+}
+
+
+.linkedin{
+    background: url(./ldark.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 90%;
+}
+
+.linkedin:hover{
+    background: url(./llight.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 90%;
+    transition: 0.5s;
+}
