@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    font-family: 'Secular One', sans-serif;
+    position: relative;
+}
+
+.firstscreen{
+    background: url(./maninbikepc.png);
+    background-position: right;
+    background-size: cover;
+    
+
+    width: 100%;
+    height: 713px;
+    position: relative;
+}
+
+.navbar{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    
+}
+
+.logo{
+    height: 400px;
+    position: absolute;
+    right: 300px;
+    top: -165px;
+    left: -50px;
+
+}
+
+nav{
+    background-color: black;
+    height: 75px;
+    margin: 0;
+
+}
+
+nav ul{
+    margin: 0;
+    list-style: none;
+}
+nav ul li{
+    float: right;
+    margin-right: 80px;
+    margin-top: 23px;
+    
+    font-size: 20px;
+    font-family: 'Secular One', sans-serif;
+    text-transform: uppercase;
+    
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    
+
+}
+a:hover{
+    color: blueviolet;
+}
+
+.bgimg{
+    background: black;
+    opacity: 0.4;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 75px;
+    z-index: 0;
+    
+}
+
+.firstcontainer{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 75px;
+    z-index: 0;
+}
+
+
+
+.welcome{
+    margin-top: 0px;
+    
+    height: 40%;
+    padding-top: 0;
+    color: white;
+    align-items: center;
+    font-size: 100px;
+    display: flex;
+    float: center;
+    z-index: 1;
+}
+
+.thirdelement{
+    background-color: black;
+    width: 100%;
+    height: 188px;
+    position: absolute;
+    display: flex;
+    top: 525px;
+   
+}
+
+.welcometext{
+    margin-top: 0px;
+    
+    height: 70%;
+    padding-top: 0;
+    color: white;
+    
+    align-items: center;
+    font-size: 25px;
+    display: flex;
+    float: center;
+    z-index: 1;
+    position: absolute;
+    
+}
+
+
+

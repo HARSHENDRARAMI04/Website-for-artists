@@ -1,0 +1,469 @@
+body{
+    margin: 0;
+    font-family: 'Arima Madurai', cursive;
+    position: relative;
+}
+
+.firstscreen{
+    background: url(./lambo\ veneno\ pc.png);
+    background-position: ;
+    background-size: cover;
+    
+
+    width: 100%;
+    height: 713px;
+    position: relative;
+}
+
+.navbar{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    
+}
+
+.logo{
+    height: 400px;
+    position: absolute;
+    right: 300px;
+    top: -165px;
+    left: -50px;
+
+}
+
+nav{
+    background-color: #141414;
+    height: 75px;
+    margin: 0;
+
+}
+
+nav ul{
+    margin: 0;
+    list-style: none;
+}
+nav ul li{
+    float: right;
+    margin-right: 80px;
+    margin-top: 23px;
+    
+    font-size: 20px;
+    font-family: 'Secular One', sans-serif;
+    text-transform: uppercase;
+    
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    
+
+}
+a:hover{
+    color: blueviolet;
+}
+
+.bgimg{
+    background: black;
+    opacity: 0.4;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 75px;
+    z-index: 0;
+    
+}
+
+.firstcontainer{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 75px;
+    z-index: 0;
+}
+
+
+
+.welcome{
+    margin-top: 15vh;
+    
+    height: 40%;
+    padding-top: 0;
+    color: white;
+    align-items: center;
+    font-size: 80px;
+    display: flex;
+    float: center;
+    z-index: 1;
+}
+
+.secondelement{
+    background-color: #000000;
+    width: 100%;
+    height: 905px;
+    position: absolute;
+    display: flex;
+    top: 525px;
+   
+}
+
+.welcometext{
+    margin-top: 0px;
+    
+    height: 70%;
+    padding-top: 0;
+    color: white;
+    
+    align-items: center;
+    font-size: 25px;
+    display: flex;
+    float: center;
+    z-index: 1;
+    position: absolute;
+    
+}
+.art1{
+    margin-top: 70px;
+    margin-left: 65px;
+    height: 400px;
+    width: 300px;
+    background-color: yellow;
+    position:absolute;
+    background-image: url(./art1.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.art2{
+    margin-top: 70px;
+    margin-left: 427px;
+    height: 400px;
+    width: 300px;
+    background-color: yellow;
+    position:absolute;
+    background-image: url(./art2.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.art3{
+    margin-top: 70px;
+    margin-left: 790px;
+    height: 400px;
+    width: 300px;
+    background-color: yellow;
+    position:absolute;
+    background-image: url(./art3.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.art4{
+    margin-top: 70px;
+    margin-left: 1150px;
+    height: 400px;
+    width: 300px;
+    background-color: yellow;
+    position:absolute;
+    background-image: url(./art4.jpeg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.art5{
+    margin-top: 495px;
+    margin-left: 65px;
+    height: 400px;
+    width: 300px;
+    background-color: yellow;
+    position:absolute;
+    background-image: url(./art5.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+
+}
+.art6{
+    margin-top: 495px;
+    margin-left: 427px;
+    height: 400px;
+    width: 300px;
+    background-color: yellow;
+    position:absolute;
+    background-image: url(./art6.jpeg);
+    background-size: cover;
+    border-radius: 10px;
+
+}
+.art7{
+    margin-top: 495px;
+    margin-left: 790px;
+    height: 400px;
+    width: 300px;
+    background-color: yellow;
+    position:absolute;
+    background-image: url(./art7.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+
+}
+.art8{
+    margin-top: 495px;
+    margin-left: 1150px;
+    height: 400px;
+    width: 300px;
+    background-color: yellow;
+    position:absolute;
+    background-image: url(./art8.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+
+}
+.thirdelement{
+    background-color: #000000;
+    width: 100%;
+    height: 905px;
+    position: absolute;
+    display: flex;
+    top: 200vh;
+}
+.art9{
+    margin-top: 70px;
+    margin-left: 65px;
+    height: 400px;
+    width: 300px;
+    background-color: yellow;
+    position:absolute;
+    background-image: url(./art9.jpeg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.art10{
+    margin-top: 70px;
+    margin-left: 427px;
+    height: 400px;
+    width: 300px;
+    background-color: yellow;
+    position:absolute;
+    background-image: url(./art10.jpeg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.art11{
+    margin-top: 70px;
+    margin-left: 790px;
+    height: 400px;
+    width: 300px;
+    background-color: yellow;
+    position:absolute;
+    background-image: url(./art11.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.art12{
+    margin-top: 70px;
+    margin-left: 1150px;
+    height: 400px;
+    width: 300px;
+    background-color: yellow;
+    position:absolute;
+    background-image: url(./art12.jpeg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.art13{
+    margin-top: 495px;
+    margin-left: 65px;
+    height: 400px;
+    width: 300px;
+    background-color: yellow;
+    position:absolute;
+    background-image: url(./art13.jpeg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.art14{
+    margin-top: 495px;
+    margin-left: 427px;
+    height: 400px;
+    width: 300px;
+    background-color: yellow;
+    position:absolute;
+    background-image: url(./art14.jpeg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.art15{
+    margin-top: 495px;
+    margin-left: 790px;
+    height: 400px;
+    width: 300px;
+    background-color: yellow;
+    position:absolute;
+    background-image: url(./art15.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.art16{
+    margin-top: 495px;
+    margin-left: 1150px;
+    height: 400px;
+    width: 300px;
+    background-color: yellow;
+    position:absolute;
+    background-image: url(./art16.jpeg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.artist1{
+    margin-left: 20px;
+    color: white;
+}
+.artist2{
+    margin-left: 20px;
+    color: white;
+}
+.line{
+    width: 100%;
+    right: 0px;
+    border: 1px solid white;
+    position: absolute;
+    margin-top: 720px;
+    z-index: 1;
+}
+
+
+
+.last{
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    display: flex;
+    top: 326vh;
+    position: absolute;
+
+}
+
+
+.copyright{
+    color: aliceblue;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 150;
+    
+    margin-top: 32.5px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+.follow{
+    color: aliceblue;
+    font-size: 15px;
+    margin-top: 32.5px;
+    margin-left: 75%;
+    position: absolute;
+
+    
+}
+
+.insta{
+    background: url(./dark.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 81%;
+}
+
+.insta:hover{
+    background: url(./light.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 81%;
+    transition: 0.5s;
+}
+
+
+.twitter{
+    background: url(./tdark.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 84%;
+}
+
+.twitter:hover{
+    background: url(./tlight.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 84%;
+    transition: 0.5s;
+}
+
+.facebook{
+    background: url(./fdark.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 87%;
+}
+
+.facebook:hover{
+    background: url(./flight.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 87%;
+    transition: 0.5s;
+}
+
+
+.linkedin{
+    background: url(./ldark.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 90%;
+}
+
+.linkedin:hover{
+    background: url(./llight.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 90%;
+    transition: 0.5s;
+}
